@@ -1,7 +1,11 @@
+<?php
+/**
+ * The template for displaying default layout
+ *
+ */
+?>
+
 <?php get_header(); ?>
-
-
-
 
 <div id="content" role="main">
     

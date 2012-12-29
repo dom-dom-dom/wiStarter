@@ -1,7 +1,12 @@
+<?php
+/**
+ * The template for displaying archives
+ *
+ */
+?>
+
+
 <?php get_header(); ?>
-
-
-
 
 <div id="content">
     

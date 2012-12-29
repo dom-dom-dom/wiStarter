@@ -1,8 +1,7 @@
 <?php
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * The template for displaying sidebars
+ *
  */
 ?>
 
@@ -12,14 +11,14 @@
         <?php if ( ! dynamic_sidebar( 'sideTop' ) ) : ?>
 
                 <aside id="archives" class="widget">
-                        <h3 class="widget-title"><?php _e( 'Archives', 'WI_Starter' ); ?></h3>
+                        <h3 class="widget-title"><?php _e( 'Archives', 'wiStarter' ); ?></h3>
                         <ul>
                                 <?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
                         </ul>
                 </aside>
 
                 <aside id="meta" class="widget">
-                        <h3 class="widget-title"><?php _e( 'Meta', 'WI_Starter' ); ?></h3>
+                        <h3 class="widget-title"><?php _e( 'Meta', 'wiStarter' ); ?></h3>
                         <ul>
                                 <?php wp_register(); ?>
                                 <li><?php wp_loginout(); ?></li>
@@ -35,14 +34,14 @@
      <?php if ( ! dynamic_sidebar( 'sideBottom' ) ) : ?>
 
         <aside id="archives" class="widget">
-                <h3 class="widget-title"><?php _e( 'Archives', 'WI_Starter' ); ?></h3>
+                <h3 class="widget-title"><?php _e( 'Archives', 'wiStarter' ); ?></h3>
                 <ul>
                         <?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
                 </ul>
         </aside>
 
         <aside id="meta" class="widget">
-                <h3 class="widget-title"><?php _e( 'Meta', 'WI_Starter' ); ?></h3>
+                <h3 class="widget-title"><?php _e( 'Meta', 'wiStarter' ); ?></h3>
                 <ul>
                         <?php wp_register(); ?>
                         <li><?php wp_loginout(); ?></li>

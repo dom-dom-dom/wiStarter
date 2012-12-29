@@ -1,7 +1,11 @@
+<?php
+/**
+ * The template for displaying pages
+ *
+ */
+?>
+
 <?php get_header(); ?>
-
-
-
 
 <div id="content" class="clear">
     

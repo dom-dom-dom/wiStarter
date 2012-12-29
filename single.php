@@ -1,7 +1,11 @@
+<?php
+/**
+ * The template for displaying single posts
+ *
+ */
+?>
+
 <?php get_header(); ?>
-
-
-
 
 <div id="content" role="main">
     

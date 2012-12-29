@@ -3,6 +3,7 @@
 /**
  * wiStarter functions and definitions.
  */
+
 if ( ! isset( $content_width ) )
 	$content_width = 625;
 
@@ -11,7 +12,7 @@ if ( ! isset( $content_width ) )
  * Adjusts content_width value for full-width and single image attachment
  * templates, and when there are no active widgets in the sidebar.
  *
- * @since Twenty Twelve 1.0
+ * @since wiStarter 1.0
  */
 function wiStarter_content_width() {
 	if ( is_page_template( 'full-width.php' ) || is_attachment() || ! is_active_sidebar( 'front' ) ) {
@@ -236,7 +237,7 @@ add_action( 'customize_preview_init', 'wiStarter_customize_preview_js' );
  * 4. Custom fonts enabled.
  * 5. Single or multiple authors.
  *
- * @since Twenty Twelve 1.0
+ * @since wiStarter 1.0
  *
  * @param array Existing class values.
  * @return array Filtered class values.
@@ -337,7 +338,7 @@ if ( ! function_exists( 'wiStarter_entry_meta' ) ) :
  *
  * Create your own wiStarter_entry_meta() to override in a child theme.
  *
- * @since Twenty Twelve 1.0
+ * @since wiStarter 1.0
  */
 function wiStarter_entry_meta() {
 	// Translators: used between list items, there is a space after the comma.

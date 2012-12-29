@@ -1,8 +1,7 @@
 <?php
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * The template for displaying and containing meta information
+ *
  */
 ?>
 
@@ -36,7 +35,7 @@
         <?php wp_head(); ?> <!--wordpress header tag-->
     </head>
 
-   <body <?php body_class(); ?> class="clear">
+   <body <?php body_class(); ?>>
 
            <div id="wrapper">
 

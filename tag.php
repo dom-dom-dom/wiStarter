@@ -1,7 +1,11 @@
+<?php
+/**
+ * The template for displaying tags
+ *
+ */
+?>
+
 <?php get_header(); ?>
-
-
-
 
 <div id="content" role="main">
     

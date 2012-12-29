@@ -1,7 +1,11 @@
+<?php
+/**
+ * The template for displaying images
+ *
+ */
+?>
+
 <?php get_header(); ?>
-
-
-
 
 <div id="content" role="main">
     

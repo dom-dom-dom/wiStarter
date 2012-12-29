@@ -3,7 +3,6 @@
  * Implements an optional custom header for wiStarter.
  * See http://codex.wordpress.org/Custom_Headers
  *
-
  */
 
 /**
@@ -14,7 +13,7 @@
  * @uses wiStarter_admin_header_style() to style wp-admin form.
  * @uses wiStarter_admin_header_image() to add custom markup to wp-admin form.
  *
- * @sincewiStarter 1.0
+ * @since wiStarter 1.0
  */
 function wiStarter_custom_header_setup() {
 	$args = array(
@@ -127,8 +126,9 @@ function wiStarter_admin_header_style() {
  * Outputs markup to be displayed on the Appearance > Header admin panel.
  * This callback overrides the default markup displayed there.
  *
- * @sincewiStarter 1.0
+ * @since wiStarter 1.0
  */
+
 function wiStarter_admin_header_image() {
 	?>
 	<div id="headimg">

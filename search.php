@@ -1,7 +1,11 @@
+<?php
+/**
+ * The template for displaying the search page
+ *
+ */
+?>
+
 <?php get_header(); ?>
-
-
-
 
 <div id="content">
     

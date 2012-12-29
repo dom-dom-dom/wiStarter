@@ -2,7 +2,6 @@
 /**
  * The template for displaying posts in the Aside post format
  *
-
  */
 ?>
 

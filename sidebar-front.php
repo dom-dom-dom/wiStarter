@@ -4,7 +4,6 @@
  *
  * If no active widgets in either sidebar, they will be hidden completely.
  *
-
  */
 
 /*

@@ -1,3 +1,11 @@
+<?php
+/**
+ * The template for displaying author page
+ *
+ */
+?>
+
+
 <?php get_header(); ?>
 
 
