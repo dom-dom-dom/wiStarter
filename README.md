@@ -1,0 +1,4 @@
+wiStarter
+=========
+
+WordPress starter theme
